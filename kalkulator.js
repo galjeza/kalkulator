@@ -42,6 +42,7 @@ function izracunaj(racun){
     racun = racun.replace("x","*");
     racun = racun.replace("√","Math.sqrt");
     racun = racun.replace("^","**");
+    racun = racun.replace("÷","/");
     var rezultat = eval(racun);
     $(".spodnja-vrstica").text(rezultat);
 }

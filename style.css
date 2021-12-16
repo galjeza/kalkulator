@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
 body {
   background-color: #eeeeee;
   font-family: 'Varela Round', sans-serif;
@@ -90,3 +91,10 @@ nav{
     margin-right: 30px;
     
 }
+@media(max-width:600px){
+    #kalkulator{
+        width: 90%;
+        max-width: 100%;
+    }
+}
+
