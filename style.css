@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body {
+  background-color: #eeeeee;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: bold;
+  
+}
+#kalkulator {
+  background-color: #f0f5fc;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  padding: 0;
+  max-width: 330px;
+  overflow-wrap: break-word;
+}
+.rounded{
+    border-radius: 13px !important;
+}
+.gumb{
+    background-color: #EEEEEE;
+    border-radius: 5px !important;
+    color: #3D4C7E;
+    font-size: 1.6rem;
+    width: 52.4px;
+    
+}
+.gumb:hover{
+    background-color: #d0d8f5;
+}
+
+.row{
+    margin-top: 10px;
+}
+#buttons{
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+#result-container{
+    padding:15px;
+    padding-right: 20px;
+    background-color: #3D4C7E;
+    color:#EEEEEE;
+    text-align: end;
+    min-height: 115px;
+}
+#result-container .zgornja-vrstica{
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+#result-container .spodnja-vrstica{
+    font-size: 2.1rem;
+}
+.equals{
+    width: 100%;
+    background-color:#3D4C7E;
+    color:#EEEEEE;
+    border-radius: 5px !important;
+    font-size: 1.6rem;
+}
+.random{
+    background-color: #EEEEEE;
+    border-radius: 5px !important;
+    color: #3D4C7E;
+    font-size: 1.6rem;
+    width: 52.4px;
+}
+.random:hover{
+    background-color: #d0d8f5;
+}
+
+.equals:hover{
+    background-color: #d0d8f5;
+}
+nav{
+    font-size: 1.2rem;
+    margin-left: 50px;
+    margin-top: 10px;
+    color:#3D4C7E;
+}
+.nav-link{
+    color:#3D4C7E;
+}
+.navbar-brand{
+    color: #3D4C7E !important;
+    font-size: 2rem !important;
+    margin-right: 30px;
+    
+}
