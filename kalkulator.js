@@ -44,6 +44,7 @@ function izracunaj(racun){
     racun = racun.replace("^","**");
     racun = racun.replace("÷","/");
     var rezultat = eval(racun);
+    spodnja_vrstica = rezultat+" ";
     $(".spodnja-vrstica").text(rezultat);
 }
 function ocisti(){
