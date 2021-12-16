@@ -14,10 +14,8 @@ $(".col-3").on("click","#ocisti",function(){
 });
 
 function dodajZnak(znak){
-    if(znak == "."){
-        spodnja_vrstica= spodnja_vrstica +znak
-    }
-    else if(!isNumber(znak)){
+    
+    if(!isNumber(znak)&&(znak!=".")){
         spodnja_vrstica= spodnja_vrstica +" "+znak+ " ";
     }else{
         spodnja_vrstica= spodnja_vrstica +znak;
