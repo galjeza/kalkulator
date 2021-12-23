@@ -57,9 +57,9 @@ function isNumber(string){
     var isNum = /^\d+$/.test(string);
     return isNum
 }
-function randomStevilo(){
-    var stevilo = Math.floor(Math.random() * 101);
-    dodajZnak(stevilo);
+function back(){
+    spodnja_vrstica = spodnja_vrstica.slice(0,-1)
+    $(".spodnja-vrstica").text(spodnja_vrstica);
 }
 //Pomožna funkcija za zamenjavo na podlagi indexa
 String.prototype.replaceAt = function(index, replacement) {

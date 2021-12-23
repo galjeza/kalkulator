@@ -21,7 +21,7 @@ body {
     border-radius: 13px !important;
 }
 .gumb{
-    background-color: #EEEEEE;
+    background-color: #3d4c7e1e;
     border-radius: 5px !important;
     color: #3D4C7E;
     font-size: 1.6rem;
@@ -63,7 +63,7 @@ body {
     font-size: 1.6rem;
 }
 .random{
-    background-color: #EEEEEE;
+    background-color: #3d4c7e1e;
     border-radius: 5px !important;
     color: #3D4C7E;
     font-size: 1.6rem;
@@ -77,20 +77,101 @@ body {
     background-color: #d0d8f5;
 }
 nav{
+    
     font-size: 1.2rem;
-    margin-left: 50px;
-    margin-top: 10px;
     color:#3D4C7E;
 }
 .nav-link{
-    color:#3D4C7E;
+    color:#3D4C7E !important;
+}
+.nav-link:hover{
+    color:black !important;
+}
+.navbar{
+    background-color: #EEEEEE !important;
 }
 .navbar-brand{
     color: #3D4C7E !important;
     font-size: 2rem !important;
     margin-right: 30px;
+    padding-left: 20px;
     
 }
+.navbar-toggler{
+    margin-right: 30px !important;
+}
+
+
+
+.form-select{
+    margin-bottom: 10px;
+    width: 50%;
+    background-color: #3d4c7ede;
+    color: #eeeeee ;
+}
+.sistemi{
+    min-width: 350px;
+    
+}
+.upload-icon{
+    font-size: 2.5rem;
+    margin-top: 60%;
+    margin-left: 20%;
+    color:#3D4C7E;
+}
+.upload-icon:hover{
+    color: #d0d8f5;
+    cursor: pointer;
+}
+
+.form-group{
+    margin-top: 10px;
+}
+.sistem-select .col-10{
+    margin-left: 0;
+    padding-left: 0;
+}
+.sistem-select{
+    font-size: 1.3rem;
+    
+}
+.sistem-select .col-2{
+    color: #3d4c7e;
+}
+.stevilski-sistemi{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;;
+}
+.stevilo{
+    color: #3D4C7E;
+    font-size: 1.2rem;
+}
+.stevilo textarea{
+    background-color: #3d4c7eec;
+    border-radius: 12px;
+
+}
+.form-select{
+    background-color: #3d4c7eec;
+}
+
+.custom-button{
+    background-color: #3D4C7E;
+    color: #EEEEEE;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+}
+.custom-button:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.selectlabel{
+    color: #3D4C7E;
+    font-size: 0.9em;
+}
+
 @media(max-width:600px){
     #kalkulator{
         width: 90%;
