@@ -171,6 +171,12 @@ nav{
     color: #3D4C7E;
     font-size: 0.9em;
 }
+#formcontrolarea1{
+    color: white;
+}
+#formcontrolarea1:focus{
+    color: #3D4C7E;
+}
 
 @media(max-width:600px){
     #kalkulator{
