@@ -5,7 +5,7 @@ $(".col-3").on("click",".gumb",function(e){
     dodajZnak(znak);
 })
 
-$(".col-6").on("click",".equals",function(){
+$(".col-3").on("click",".equals",function(){
     izracunaj(spodnja_vrstica);
 });
 
@@ -66,4 +66,18 @@ String.prototype.replaceAt = function(index, replacement) {
     return this.substr(0, index) + replacement + this.substr(index + replacement.length);
 }
 
- 
+$('#calculatorUploadFile').click(function() { $('#upload').trigger('click'); });
+$('#upload').change(function() {
+    console.log("fr");
+    var fr = new FileReader();
+    fr.readAsText(this.files[0]);
+    
+    fr.onload = function(evt) {
+       var tekst = evt.target.result;
+       for(var i=0;i<tekst.length;i++){
+           dodajZnak(tekst[i]);
+       }
+
+        
+    }
+});

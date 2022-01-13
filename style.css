@@ -8,11 +8,8 @@ body {
 }
 #kalkulator {
   background-color: #f0f5fc;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  margin:  auto;
+  margin-top:50px;
   padding: 0;
   max-width: 330px;
   overflow-wrap: break-word;
@@ -172,16 +169,19 @@ nav{
     font-size: 0.9em;
 }
 #formcontrolarea1{
-    color: white;
+    color: white !important;
+}
+#formcontrolarea1::placeholder{
+    color: white !important;
 }
 #formcontrolarea1:focus{
-    color: #3D4C7E;
+    color: #3D4C7E !important;
 }
 
 @media(max-width:600px){
     #kalkulator{
         width: 90%;
-        max-width: 100%;
+        max-width: 310px;
     }
 }
 
