@@ -183,5 +183,8 @@ nav{
         width: 90%;
         max-width: 310px;
     }
+    .nav-item{
+        padding-left:20px;
+    }
 }
 
